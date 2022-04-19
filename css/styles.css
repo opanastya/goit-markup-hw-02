@@ -1,0 +1,200 @@
+:root {
+    --black-color:#212121;
+    --white-color:#FFFFFF;
+    --blue-color:#2196F3;
+    --grey-color:#757575;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+/* -----------HEDER----------------- */
+.header-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--blue-color);
+text-decoration: none;
+}
+.header-logo-span {
+    color: #000000;
+}
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--black-color);
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--blue-color);
+}
+.header-tel-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+.header-tel-mail:hover,
+.header-tel-mail:focus {
+color: var(--blue-color);
+}
+
+
+
+
+/*----------------HERO - MAIN -----------BUTTON */
+
+.hero {
+    /* фон временній */
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    
+}
+
+.hiro-btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--black-color);
+    cursor: pointer;
+        /* display: flex;
+            align-items: center;
+            text-align: center; */
+}
+.hiro-btn:hover, 
+.hiro-btn:focus {
+color: var(--white-color);
+background-color: var(--blue-color);
+}
+/*----------SKILLS-------------------*/
+.feature-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black-color);
+}
+.feature-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--grey-color);
+}
+
+/*----------------ABOUT ------------- */
+
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+/*----------------TEAM ------------- */
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+/* ---------------FooTER----------------- */
+.footer-logo-span {
+color: var(--white-color);
+}
+.footer {
+    /* фон временній */
+background-color: #2F303A;
+}
+.footer-link-map {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    font-style: normal;
+}
+.footer-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-map:hover,
+.footer-link-map:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--blue-color);
+}
+
+/* -----------PROFIL---------------- */
+/* ----------gallery----------------- */
+
+.gallery-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    cursor: pointer;
+}
+.gallery-btn:hover, 
+.gallery-btn:focus {
+color: var(--white-color);
+background-color: var(--blue-color);
+}
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black-color);
+}
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
